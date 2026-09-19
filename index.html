@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica W&N | Saúde e Bem-Estar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#inicio">Clínica <span>W&N</span></a>
+      <div class="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Cuidado, tecnologia e acolhimento</p>
+          <h1>Clínica W&N</h1>
+          <h2>Saúde mais próxima de você</h2>
+          <p class="hero-text">
+            Atendimento integrado para cuidar da sua saúde com qualidade,
+            conforto e atenção em todas as etapas.
+          </p>
+          <a class="button" href="#contato">Entre em contato</a>
+        </div>
+        <div class="hero-card">
+          <img src="img/hero.svg" alt="Ilustração de atendimento em uma clínica de saúde">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container two-columns">
+        <div>
+          <p class="eyebrow">Conheça a clínica</p>
+          <h2>Atendimento pensado para você</h2>
+          <p>
+            A Clínica W&N é uma clínica de saúde fictícia localizada em Belo
+            Horizonte - MG. Nosso propósito é oferecer uma experiência de
+            atendimento humanizada, organizada e acessível.
+          </p>
+          <p>
+            Reunimos diferentes áreas de cuidado em um ambiente preparado para
+            atender às necessidades dos pacientes com praticidade.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="img/clinic.svg" alt="Ilustração do ambiente de uma clínica">
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section light">
+      <div class="container">
+        <p class="eyebrow">Nossos serviços</p>
+        <h2>Cuidados para diferentes necessidades</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">🩺</div>
+            <h3>Clínica Geral</h3>
+            <p>Atendimento médico inicial, acompanhamento e orientação para diferentes necessidades de saúde.</p>
+          </article>
+          <article class="card">
+            <div class="icon">❤️</div>
+            <h3>Cardiologia</h3>
+            <p>Avaliação e acompanhamento da saúde cardiovascular com atendimento individualizado.</p>
+          </article>
+          <article class="card">
+            <div class="icon">✨</div>
+            <h3>Dermatologia</h3>
+            <p>Cuidados com a pele, prevenção e acompanhamento de condições dermatológicas.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🧪</div>
+            <h3>Exames</h3>
+            <p>Informações sobre exames laboratoriais e de imagem para apoiar o cuidado com a saúde.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🥗</div>
+            <h3>Nutrição</h3>
+            <p>Aconselhamento nutricional com orientações adequadas aos objetivos de cada paciente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipe" class="section">
+      <div class="container">
+        <p class="eyebrow">Nossa equipe</p>
+        <h2>Profissionais dedicados ao seu cuidado</h2>
+        <div class="team">
+          <article class="person">
+            <img src="img/dr-carlos.svg" alt="Foto ilustrativa do Dr. Carlos Mendes">
+            <h3>Dr. Carlos Mendes</h3>
+            <p>Clínico Geral</p>
+          </article>
+          <article class="person">
+            <img src="img/dra-ana.svg" alt="Foto ilustrativa da Dra. Ana Paula Silva">
+            <h3>Dra. Ana Paula Silva</h3>
+            <p>Cardiologista</p>
+          </article>
+          <article class="person">
+            <img src="img/dra-juliana.svg" alt="Foto ilustrativa da Dra. Juliana Costa">
+            <h3>Dra. Juliana Costa</h3>
+            <p>Dermatologista</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section light">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Fale conosco</p>
+          <h2>Entre em contato</h2>
+          <p>
+            Preencha o formulário para demonstrar interesse em conhecer nossos
+            serviços. Este formulário é apenas demonstrativo e não realiza o
+            envio ou armazenamento dos dados.
+          </p>
+          <div class="contact-info">
+            <p><strong>📍 Endereço:</strong> Av. Saúde, 1000 - Belo Horizonte/MG</p>
+            <p><strong>☎️ Telefone:</strong> (31) 3333-2026</p>
+            <p><strong>✉️ E-mail:</strong> contato@clinicawn.example</p>
+          </div>
+        </div>
+
+        <form class="form" action="#" method="get">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required>
+
+          <label for="cidade">Cidade</label>
+          <input id="cidade" name="cidade" type="text" placeholder="Sua cidade" required>
+
+          <label for="estado">Estado</label>
+          <select id="estado" name="estado" required>
+            <option value="">Selecione</option>
+            <option>AC</option><option>AL</option><option>AP</option><option>AM</option>
+            <option>BA</option><option>CE</option><option>DF</option><option>ES</option>
+            <option>GO</option><option>MA</option><option>MT</option><option>MS</option>
+            <option>MG</option><option>PA</option><option>PB</option><option>PR</option>
+            <option>PE</option><option>PI</option><option>RJ</option><option>RN</option>
+            <option>RS</option><option>RO</option><option>RR</option><option>SC</option>
+            <option>SP</option><option>SE</option><option>TO</option>
+          </select>
+
+          <button class="button" type="submit">Enviar</button>
+          <small>Formulário estático — sem processamento após o envio.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <strong>Clínica W&N</strong>
+        <p>Saúde, cuidado e acolhimento.</p>
+      </div>
+      <p>© 2026 Clínica W&N — Projeto acadêmico fictício.</p>
+    </div>
+  </footer>
+</body>
+</html>
