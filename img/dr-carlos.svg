@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
-<rect width="800" height="520" rx="30" fill="#eaf9f7"/>
-<circle cx="400" cy="230" r="110" fill="#bfe8e3"/><circle cx="400" cy="205" r="42" fill="#138a87"/><path d="M315 360c18-80 152-80 170 0" fill="#138a87"/><circle cx="250" cy="255" r="55" fill="#eaf9f7"/><circle cx="550" cy="255" r="55" fill="#eaf9f7"/>
-<text x="400" y="475" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#18333a">Dr. Carlos Mendes</text>
-<text x="400" y="505" text-anchor="middle" font-family="Arial" font-size="17" fill="#52696e">Clínico Geral</text>
-</svg>
